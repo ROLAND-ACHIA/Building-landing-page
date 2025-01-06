@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huddle Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        .huddle-section {
+            padding: 50px 20px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+
+        .cta-button {
+            background-color: #ff0077;
+            color: white;
+            padding: 15px 30px;
+            font-size: 1em;
+            border: none;
+            border-radius: 25px;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        .cta-button:hover {
+            background-color: #ff3366;
+        }
+
+        .image-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 50px 0;
+        }
+
+        .image-container img {
+            width: 400px; /* Reduced size */
+        }
+
+        .stats {
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+            padding: 50px 20px;
+            background-color: #f8f8f8;
+        }
+
+        .stat {
+            text-align: center;
+        }
+
+        .stat img {
+            width: 60px; /* Reduced size */
+            margin-bottom: 20px;
+        }
+
+        .stat-value {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+
+        .stat-description {
+            font-size: 1em;
+            color: #555;
+        }
+
+        .feature-section {
+            padding: 50px 20px;
+            text-align: left;
+        }
+
+        .feature-section img {
+            width: 300px; /* Reduced size */
+            border-radius: 50px;
+            margin: 10px;
+        }
+
+        .feature-section p {
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+
+        .feature {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            padding: 50px 20px;
+        }
+
+        .feature:nth-child(even) {
+            flex-direction: row-reverse;
+        }
+
+        .footer {
+            padding: 50px 20px;
+            background-color: #f8f8f8;
+        }
+
+        .footer .cta-button {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <section class="huddle-section">
+        <h1>Build The Community Your Fans Will Love</h1>
+        <p>
+            Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
+            Create connections with your users as you engage in genuine discussion.
+        </p>
+        <a href="#" class="cta-button">Get Started For Free</a>
+    </section>
+
+    <div class="image-container">
+        <img src="images/20.svg" alt="Community illustration">
+    </div>
+
+    <div class="stats">
+        <div class="stat">
+            <img src="images/12.svg" alt="Communities Formed Icon">
+            <div class="stat-value">1.4k+</div>
+            <div class="stat-description">Communities Formed</div>
+        </div>
+
+        <div class="stat">
+            <img src="images/14.svg" alt="Messages Sent Icon">
+            <div class="stat-value">2.7m+</div>
+            <div class="stat-description">Messages Sent</div>
+        </div>
+    </div>
+
+    <section class="feature">
+        <img src="images/17.svg" alt="Grow Together Illustration">
+        <div>
+            <h1>Grow Together</h1>
+            <p>
+                Generate meaningful discussions with your audience and build a strong, loyal community. Think of the insightful conversations you miss out on with a feedback form.
+            </p>
+        </div>
+    </section>
+
+    <section class="feature">
+        <img src="images/16.svg" alt="Flowing Conversations Illustration">
+        <div>
+            <h1>Flowing Conversations</h1>
+            <p>
+                You wouldn't paginate a conversation in real life, so why do it online? Our threads have just-in-time loading for a more natural flow.
+            </p>
+        </div>
+    </section>
+
+    <section class="feature">
+        <img src="images/18.svg" alt="Your Users Illustration">
+        <div>
+            <h1>Your Users</h1>
+            <p>
+                It takes no time to integrate Huddle with your app's authentication solution. This means, once signed in to your app, your users can start chatting immediately.
+            </p>
+        </div>
+    </section>
+
+    <div class="footer">
+        <h1>Ready To Build Your Community?</h1>
+        <a href="#" class="cta-button">Get Started For Free</a>
+    </div>
+</body>
+</html>
